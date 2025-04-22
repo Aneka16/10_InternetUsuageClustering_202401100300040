@@ -27,14 +27,23 @@ You can modify or simulate the dataset for experimentation.
 # Results
 🔹 KMeans Clustering (Unsupervised Learning)
 The KMeans algorithm was used to group users into three behavioral clusters based on their internet usage features. Here’s the distribution:
+---
 
-bash
-Copy
-Edit
+# **Results: KMeans Clustering (Unsupervised Learning)**
+
+The KMeans clustering algorithm was applied to group users into **three behavioral clusters** based on their internet usage features. Below is the distribution of users across the three clusters:
+
+# Cluster Distribution:
+```
 Cluster 0: 45 users — Likely low-usage users  
 Cluster 1: 38 users — Possibly social media-focused users  
 Cluster 2: 17 users — Possibly heavy or shopping-oriented users
-📌 These clusters help identify patterns in user behavior without any prior labels.
+```
+
+# Cluster Characteristics**:
+- **Cluster 0**: Users with lower device usage and visit frequency, potentially casual or infrequent internet users.
+- **Cluster 1**: Users exhibiting higher social media engagement, suggesting they are more active in social networks.
+- **Cluster 2**: Users who exhibit significant interaction with shopping sites, possibly high-frequency shoppers.
 
 
 📝 Insights:
